@@ -14,7 +14,11 @@ if (process.argv.length <= 2) {
     process.exit(1)
 }
 
+<<<<<<< HEAD
 size = parseInt(process.argv[2], 16)
+=======
+size = parseInt(process.argv[2], 10)
+>>>>>>> 9a0da8efb216137e0f60276d9159287457b0fdec
 
 for (let i = 0 ; i < size ; i ++) {
     for (let j = 0 ; j < size ; j ++) {
